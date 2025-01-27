@@ -21,8 +21,22 @@ public class InsertionSort {
     
        
     
-        // Main method to test the insertion sort
+        // Main method to test the insertion sort practice
        
+    // public static void insertionsort2(int[] arr){
+    //    int n = arr.length;
+    //    for (int i = 1; i < n; i++) {
+    //        int key = arr[i];
+    //        int j = i-1;
+
+    //        while (j>=0 && arr[j] > key) {
+    //            arr[j+1] = arr[j];
+    //            j--;
+    //        }
+    //        arr[j+1] = key;
+    //    }
+    // }
+
     
     public static void printArray(int arr[]){
         for (int i = 0; i < arr.length; i++) {
@@ -35,6 +49,8 @@ public class InsertionSort {
         
         insertionSort(arr);
         printArray(arr);
+        // insertionsort2(arr);
+        // printArray(arr);
         
     }
 }
