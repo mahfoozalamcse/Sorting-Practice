@@ -3,7 +3,7 @@ public class InsertionSort {
         public static void insertionSort(int[] arr) {
             int n = arr.length; // Length of the array   
        
-            // Iterate from the second element to the last
+            // Iterate from the second element to the last 
             for (int i = 1; i < n; i++) {
                 int key = arr[i]; // The current element to be inserted
                 int j = i - 1; // The last index of the sorted portion
