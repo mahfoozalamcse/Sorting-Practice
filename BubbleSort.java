@@ -1,6 +1,6 @@
 public class BubbleSort {
     public static void bubbleSort(int arr[], int n){
-    
+     
         boolean swapped; 
         
         for(int i = 0; i < n; i++){
