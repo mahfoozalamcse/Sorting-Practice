@@ -8,7 +8,7 @@ public class SeletionSort {
                 if(arr[minIdx] > arr[j] ){
                     minIdx = j;
                 }
-            }
+            } 
             int temp = arr[minIdx];
             arr[minIdx] = arr[i];
             arr[i] = temp;
