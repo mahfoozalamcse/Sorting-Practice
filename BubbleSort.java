@@ -1,4 +1,4 @@
-public class BubbleSort {
+public class BubbleSort { 
     public static void bubbleSort(int arr[], int n){
       
         boolean swapped; 
