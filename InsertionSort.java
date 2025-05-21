@@ -1,7 +1,7 @@
 public class InsertionSort {
       // Function to perform insertion sort
         public static void insertionSort(int[] arr) {
-            int n = arr.length; // Length of the array    
+            int n = arr.length; // Length of the array     
        
             // Iterate from the second element to the last 
             for (int i = 1; i < n; i++) {
